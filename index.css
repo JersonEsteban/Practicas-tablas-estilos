@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(210, 206, 201);
+    font-size: 20px;
+
+}
+.header{
+    border: 1px solid rgb(16, 16, 15);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.main{
+    border: 1px solid greenyellow;
+  
+}
+
+.footer{
+    border: 1px solid greenyellow;
+    height: 10vh;
+}
+.border{
+    border: 1px solid blue;
+}
+.background{
+    background-color: chocolate;
+}
+.menuprincipal{
+    width: 30vw;
+
+}
+.menu1{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    list-style: none;
+}
+
+.images{
+    width: 50vw;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.titulo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video{
+    width: 50vw;
+    margin: auto;
+    
+}
+
+.border{
+    border: 2px dotted;
+    border-top: 2px solid red;
+    border-bottom: 2px solid blue
+}
+
+.borderparrafo{
+    border: 1px solid green;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.shadow{
+    box-shadow: 15px 10px  30px 20px  navy;
+    box-shadow: 20px 15px  4px 20px  rgb(27, 189, 27);
+    box-shadow: 30px 10px  30px 20px  rgb(229, 82, 14);
+}
+
+.shadow{
+    text-shadow:  1px  7px  rgb(225, 8, 8);
+    
+    
+}
+
+body{
+    background-image: url(images/pexels-pixabay-163046.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+}   
+
+.medidas{
+    border: 1px solid var(--primary-color);   
+    background-color: var(--secondary-color);
+    width: 50vw;
+    font-size: 2rem;
+    margin: auto;
+}
+
+a:hover{
+    font-size: 20px;
+    background-color: rgb(47, 153, 153);
+    color: rgb(17, 105, 182);
+    
+    
+
+}
+
+
+:root{
+    --primary-color:blue;
+    --secondary-color:aquamarine;
+}
+
